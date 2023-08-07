@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Cálculo IMC</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+<body>
+    <form>
+        <div id="cachorro">
+           
+            <p>Calculadora IMC</p>
+            <br/>
+                
+               &nbsp;
+               <label for ="peso">Peso:</label>
+               <input type="text" name="txtpeso" id="txtpeso">
+
+               <br/><br>
+               &nbsp;
+               <label for ="altura">Altura:</label>
+               <input type="text" name="txtaltura" id="txtaltura">
+
+               <br/><br/>
+               &nbsp;
+               
+               <label for="sexo">Sexo:</label>
+               &nbsp;&nbsp;
+               <input type="radio" id="sexof" name="sexo" value="F" checked><label for="sexo">Feminino</label>
+               &nbsp;
+               <input type="radio" id="sexom" name="sexo" value="M"><label for="sexo">Masculino</label>
+
+               <br/><br/>
+               &nbsp;
+
+               <label for="resultado">Resultado:</label>
+               &nbsp;&nbsp;
+               <textarea id="resultado" name="resultado" rows="1" disabled></textarea>
+
+               <br/><br/><br/><br/>
+               &nbsp;
+
+               <label for="resultado">Mensagem:</label>
+               &nbsp;&nbsp;
+               <br/><br/>
+               <textarea id="mensagem" name="m" rows="4" cols="30" disabled></textarea>
+
+               <Br/><br/>
+
+               <input type="button" onclick="Calcular()" name="btnenviar" id="btnenviar" value="Calcular">
+               <input type="reset" name="btnlimpar" id="btnlimpar" value="Limpar">
+           
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

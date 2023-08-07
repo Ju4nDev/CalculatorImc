@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:black;
+}
+body{
+    background-image: url("gifzinho.gif");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+body p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 200%;
+    background: linear-gradient(to right, rgb(241, 137, 168) 20%, rgb(255, 55, 138) 30%, rgb(255, 143, 143) 50%);
+    border-radius: 30%;
+}
+
+#cachorro{
+    height:450px;
+    width:30%;
+    background-color: pink;
+    padding-top:1.5%;
+    text-align: center;   
+    margin-left:35%;
+    font-size: 100%;
+    border-radius: 5%;
+    margin-top:6%;
+    box-shadow: 0px 5px 10px 5px;
+}
+#txtpeso,#txtaltura,#sexo
+{
+    width:15%;
+    margin-left: 2%;
+}
+#resultado{
+    width: 15%;
+    margin-left: 2%;
+    resize: none;
+}
+#mensagem{
+    font-size: 120%;
+    width:80%;
+    resize: none;
+}
+form{
+    height:100%;    
+}
+#btnlimpar{
+   width:30%;
+   font-size: 110%;
+   margin-right:3%;
+   display: inline-flex;
+   justify-content: center;
+   border:none;
+   background-color: blueviolet;
+   border-radius: 20%;
+   box-shadow: 0 5px 10px 5px;
+}
+#btnlimpar:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: 0.3s;
+}
+
+#btnenviar{
+   width:30%;
+   font-size: 110%;
+   margin-right:3%;
+   display: inline-flex;
+   justify-content: center;
+   border:none;
+   background-color: blueviolet;
+   border-radius: 20%;
+   box-shadow: 0 5px 10px 5px;
+}
+
+#btnenviar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+textarea{
+    background-color: white;
+}
